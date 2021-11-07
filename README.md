@@ -118,18 +118,10 @@ $ sudo systemctl restart httpd
  
  <p><b>Configuring a simple reverse proxy</b></p>
  
- <TEXT>
- <VirtualHost *:80>
+ <p>$ sudo vim /etc/httpd/conf/httpd.conf</p>
 
-ProxyPreserveHost On
-
-ProxyPass / http://192.168.1.50/
-
-ProxyPassReverse / http://192.168.1.50/
-
-</VirtualHost>
- </TEXT>  
   
- 
+ ![chrome_i7GuuHf00l](https://user-images.githubusercontent.com/51197053/140650161-8da05902-138e-4d21-98e2-397e5b44bac6.png)
+
  
  
