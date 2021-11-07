@@ -109,6 +109,16 @@ LoadModule proxy_balancer_module modules/mod_proxy_balancer.so<br>
 LoadModule proxy_http_module modules/mod_proxy_http.so<br>
 LoadModule proxy_ajp_module modules/mod_proxy_ajp.so<br>
 </text>  
+
+<br>
+LoadModule proxy_module modules/mod_proxy.so
+<br><br>
+LoadModule proxy_http_module modules/mod_proxy_http.so
+<br><br>
+Now save the file & exit, then restart the apache service to implement the changes made,
+<br><br>
+$ sudo systemctl restart httpd
+<br> 
  
  
  
