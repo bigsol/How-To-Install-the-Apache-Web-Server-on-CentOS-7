@@ -38,4 +38,10 @@ You will see an active status when the service is running:<br><br>
 ![aaaa](https://user-images.githubusercontent.com/51197053/140646159-102eefb1-55a6-4418-a082-3b1f76e3094e.png)
 
 <br>
+<br>
+<p>When you have your server’s IP address, enter it into your browser’s address bar:</p>
+<br>
+http://your_server_ip
+<br><br>
+
 
