@@ -81,8 +81,7 @@ sudo systemctl restart httpd
  <p>Apache will now start automatically when the server boots again.</p>
  <p>The default configuration for Apache will allow your server to host a single website. If you plan on hosting multiple domains on your server, you will need to configure virtual hosts on your Apache web server.</p>
 <br>
-<br>
- <p><b>Modules needed for using Apache as a reverse proxy</b></p>
+<p><b>Modules needed for using Apache as a reverse proxy</b></p>
 <br> 
  
  
