@@ -73,11 +73,11 @@ sudo systemctl restart httpd
  <p>By default, Apache is configured to start automatically when the server boots. If this is not what you want, disable this behavior by typing:</p>
  <br>
  sudo systemctl disable httpd
- <br>
+ <br><br>
  To re-enable the service to start up at boot, type:
- <br>
+ <br><br>
  To re-enable the service to start up at boot, type:
- <br>
+ <br><br>
  sudo systemctl enable httpd
  <br>
  
