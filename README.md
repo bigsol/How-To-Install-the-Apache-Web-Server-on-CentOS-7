@@ -34,6 +34,8 @@ sudo firewall-cmd --reload
  sudo systemctl status httpd
  <br><br>
 You will see an active status when the service is running:<br><br>
-![image](https://user-images.githubusercontent.com/51197053/140646110-f2110a6e-b0b9-4611-b279-3f5221157ca8.png)
+
+![aaaa](https://user-images.githubusercontent.com/51197053/140646159-102eefb1-55a6-4418-a082-3b1f76e3094e.png)
+
 <br>
 
