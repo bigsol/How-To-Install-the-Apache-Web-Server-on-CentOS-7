@@ -134,7 +134,7 @@ remove ssl.conf<br>
  <p># Use name-base virtual hosting</p>
  <p>NameVirtualHost *:443 </p>
  
-<p><b> By default, SELinux only allowed apache/httpd to bind to the following ports:</b></p?
+ <p><b> By default, SELinux only allowed apache/httpd to bind to the following ports:</b></p>
 ![chrome_YGCkYpZv4M](https://user-images.githubusercontent.com/51197053/140651191-de6b4a48-e02c-4343-9958-c59566f5c448.png)
 
  
