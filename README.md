@@ -57,7 +57,6 @@ To stop your web server, type:
 <br>
 <p>sudo systemctl stop httpd<p>
 <br>
-<br>
 To start the web server when it is stopped, type:
 <br> 
  
