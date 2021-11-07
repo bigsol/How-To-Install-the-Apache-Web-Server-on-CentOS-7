@@ -100,6 +100,8 @@ This command will generate the list of modules that are currently working. If th
 <br>
 <p>$ sudo vim /etc/httpd/conf/httpd.conf</p>
 <br>
+<br>
+ Add lines
 <text>
 LoadModule proxy_module modules/mod_proxy.so
 LoadModule lbmethod_byrequests_module modules/mod_lbmethod_byrequests.so
