@@ -116,5 +116,7 @@ Now save the file & exit, then restart the apache service to implement the chang
 $ sudo systemctl restart httpd
 <br> 
  
+ <p><b>Configuring a simple reverse proxy</b></p>
+ 
  
  
