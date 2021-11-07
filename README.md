@@ -52,3 +52,11 @@ http://your_server_ip
 <p><b>Step 3 — Managing the Apache Process</b></p>
 <br><br>
 <li>Now that you have your web server up and running, let’s go over some basic management commands.
+<br><br>
+To stop your web server, type: 
+<br>
+sudo systemctl stop httpd
+<br> 
+ 
+ 
+ 
