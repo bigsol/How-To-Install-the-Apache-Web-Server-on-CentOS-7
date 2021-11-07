@@ -76,8 +76,6 @@ sudo systemctl restart httpd
  <br><br>
  To re-enable the service to start up at boot, type:
  <br><br>
- To re-enable the service to start up at boot, type:
- <br><br>
  sudo systemctl enable httpd
  <br>
  
