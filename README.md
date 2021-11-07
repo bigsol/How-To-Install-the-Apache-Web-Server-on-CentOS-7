@@ -103,11 +103,11 @@ This command will generate the list of modules that are currently working. If th
 <br>
  Add lines<br><br>
 <text>
-LoadModule proxy_module modules/mod_proxy.so
-LoadModule lbmethod_byrequests_module modules/mod_lbmethod_byrequests.so
-LoadModule proxy_balancer_module modules/mod_proxy_balancer.so
-LoadModule proxy_http_module modules/mod_proxy_http.so
-LoadModule proxy_ajp_module modules/mod_proxy_ajp.so
+LoadModule proxy_module modules/mod_proxy.so<br>
+LoadModule lbmethod_byrequests_module modules/mod_lbmethod_byrequests.so<br>
+LoadModule proxy_balancer_module modules/mod_proxy_balancer.so<br>
+LoadModule proxy_http_module modules/mod_proxy_http.so<br>
+LoadModule proxy_ajp_module modules/mod_proxy_ajp.so<br>
 </text>  
  
  
