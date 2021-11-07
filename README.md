@@ -118,5 +118,18 @@ $ sudo systemctl restart httpd
  
  <p><b>Configuring a simple reverse proxy</b></p>
  
+ <TEXT>
+ <VirtualHost *:80>
+
+ProxyPreserveHost On
+
+ProxyPass / http://192.168.1.50/
+
+ProxyPassReverse / http://192.168.1.50/
+
+</VirtualHost>
+ </TEXT>  
+  
+ 
  
  
