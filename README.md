@@ -23,5 +23,17 @@ Next, reload the firewall to put these new rules into effect:
 sudo firewall-cmd --reload
 <br><br>
 <p><b>Step 2 — Checking your Web Server</b></p>
-
+<br>
+<text>
+ Apache does not automatically start on CentOS once the installation completes. You will need to start the Apache process manually:
+ </text><br>
+ sudo systemctl start httpd
+ <br><br>
+ Verify that the service is running with the following command:
+ <br><br>
+ sudo systemctl status httpd
+ <br><br>
+You will see an active status when the service is running:<br><br>
+![image](https://user-images.githubusercontent.com/51197053/140646110-f2110a6e-b0b9-4611-b279-3f5221157ca8.png)
+<br>
 
