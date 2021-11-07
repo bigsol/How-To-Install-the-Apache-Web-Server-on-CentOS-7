@@ -44,4 +44,8 @@ You will see an active status when the service is running:<br><br>
 http://your_server_ip
 <br><br>
 
+<p>You’ll see the default CentOS 7 Apache web page:</p>
+<br>
+
+![mstsc_zYtpec1PFY](https://user-images.githubusercontent.com/51197053/140646319-04f0e72b-f889-492f-bb87-38b41992ba0a.png)
 
