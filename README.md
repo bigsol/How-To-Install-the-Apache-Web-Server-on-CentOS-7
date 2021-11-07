@@ -122,6 +122,7 @@ $ sudo systemctl restart httpd
 
   
  ![chrome_i7GuuHf00l](https://user-images.githubusercontent.com/51197053/140650161-8da05902-138e-4d21-98e2-397e5b44bac6.png)
-
- 
+<text>
+ here, we are telling with the 'ProxyPass' parameter that whatever request s received at '/', redirect it to 'http://192.168.1.50/'. Now restart the apache services to implement the changes,</text>
+<p>$ sudo systemctl restart httpd</p> 
  
