@@ -92,7 +92,8 @@ sudo systemctl restart httpd
 
 Check if the following modules are installed & working with the following command,
 
-$ httpd -M 
+$ httpd -M
+ </text>  
  
  
  
