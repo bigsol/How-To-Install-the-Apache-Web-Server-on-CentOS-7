@@ -125,4 +125,9 @@ $ sudo systemctl restart httpd
 <p>
 here, we are telling with the 'ProxyPass' parameter that whatever request s received at '/', redirect it to 'http://192.168.1.50/'. Now restart the apache services to implement the changes,</p>
 <p>$ sudo systemctl restart httpd</p> 
+<br>
+<br> 
+yum install httpd mod_ssl -y<br>
+remove ssl.conf<br>
+ 
  
