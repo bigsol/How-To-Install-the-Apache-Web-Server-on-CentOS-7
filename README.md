@@ -50,3 +50,5 @@ http://your_server_ip
 ![mstsc_zYtpec1PFY](https://user-images.githubusercontent.com/51197053/140646319-04f0e72b-f889-492f-bb87-38b41992ba0a.png)
 <br><br>
 <p><b>Step 3 — Managing the Apache Process</b></p>
+<br><br>
+<li>Now that you have your web server up and running, let’s go over some basic management commands.
