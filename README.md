@@ -83,6 +83,16 @@ sudo systemctl restart httpd
 <br>
 <p><b>Modules needed for using Apache as a reverse proxy</b></p>
 <br> 
+ <text>
+ After the apache has been installed on the machine, we need to make sure that the following modules are installed & activated on the apache machine, that will be used as a reverse proxy,
+
+1- mod_proxy – it is the main module responsible for redirecting the connections,
+
+2- mod_proxy_http – add the support for proxying HTTP connections,
+
+Check if the following modules are installed & working with the following command,
+
+$ httpd -M 
  
  
  
