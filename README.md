@@ -93,7 +93,13 @@ sudo systemctl restart httpd
 Check if the following modules are installed & working with the following command,
 
 $ httpd -M
- </text>  
+</text>
+<text>
+ This command will generate the list of modules that are currently working. If these modules are not on the list, then we need to enable them by making the following entry in httpd.conf,
+ </text>
+ <br>
+ $ sudo vim /etc/httpd/conf/httpd.conf
+ <br>
  
  
  
