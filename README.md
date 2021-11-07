@@ -110,7 +110,7 @@ LoadModule proxy_http_module modules/mod_proxy_http.so<br>
 LoadModule proxy_ajp_module modules/mod_proxy_ajp.so<br>
 </text>  
 
-<br><br>
+<br>
 Now save the file & exit, then restart the apache service to implement the changes made,
 <br><br>
 $ sudo systemctl restart httpd
