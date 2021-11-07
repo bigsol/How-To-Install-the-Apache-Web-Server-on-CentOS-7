@@ -98,7 +98,7 @@ $ httpd -M
  This command will generate the list of modules that are currently working. If these modules are not on the list, then we need to enable them by making the following entry in httpd.conf,
  </text>
  <br>
- $ sudo vim /etc/httpd/conf/httpd.conf
+ <p>$ sudo vim /etc/httpd/conf/httpd.conf</p>
  <br>
  
  
