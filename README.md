@@ -130,4 +130,8 @@ here, we are telling with the 'ProxyPass' parameter that whatever request s rece
 yum install httpd mod_ssl -y<br>
 remove ssl.conf<br>
  
+<p>Enable name-based virtual hosting on port 443 by adding the following text, just before the SSL Virtual Host Context comment </p>
+ <p># Use name-base virtual hosting</p>
+ <p>NameVirtualHost *:443 </p>
+ 
  
