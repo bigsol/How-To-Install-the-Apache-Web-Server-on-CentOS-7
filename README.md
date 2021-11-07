@@ -137,6 +137,11 @@ remove ssl.conf<br>
  <p><b> By default, SELinux only allowed apache/httpd to bind to the following ports:</b></p>
 
  ![chrome_YGCkYpZv4M](https://user-images.githubusercontent.com/51197053/140651232-24d51e96-e3f9-479e-bed2-55977f09ff79.png)
-
+<p> So binding to my httpd.conf-configured Listen 88 HTTP port and config.d/ssl.conf-configured Listen 8445 TLS/SSL port would fail with that default SELinux configuration.<p>
+ <p>To fix my problem, I had to add ports 88 and 8445 to my system's SELinux configuration:</p>
+ 
+<li>Install semanage tools: sudo yum -y install policycoreutils-python</li>
+<li>Allow port 88 for httpd: sudo semanage port -a -t http_port_t -p tcp 88</li>
+<li>Allow port 8445 for httpd: sudo semanage port -a -t http_port_t -p tcp 8445</li>
  
 
