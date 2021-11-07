@@ -55,7 +55,7 @@ http://your_server_ip
 <br><br>
 To stop your web server, type: 
 <br>
-sudo systemctl stop httpd
+<p>sudo systemctl stop httpd<p>
 <br> 
  
  
