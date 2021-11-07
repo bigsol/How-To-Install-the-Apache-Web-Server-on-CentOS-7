@@ -65,7 +65,7 @@ sudo systemctl start httpd
 To stop and then start the service again, type:
 <br><br>
 sudo systemctl restart httpd
-<br><br> 
+<br>
 <p>If you are simply making configuration changes, Apache can often reload without dropping connections. To do this, use this command:</p>
  <br>
  sudo systemctl reload httpd
