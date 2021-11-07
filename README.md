@@ -95,11 +95,18 @@ Check if the following modules are installed & working with the following comman
 $ httpd -M
 </text>
 <text>
- This command will generate the list of modules that are currently working. If these modules are not on the list, then we need to enable them by making the following entry in httpd.conf,
- </text>
- <br>
- <p>$ sudo vim /etc/httpd/conf/httpd.conf</p>
- <br>
+This command will generate the list of modules that are currently working. If these modules are not on the list, then we need to enable them by making the following entry in httpd.conf,
+</text>
+<br>
+<p>$ sudo vim /etc/httpd/conf/httpd.conf</p>
+<br>
+<text>
+LoadModule proxy_module modules/mod_proxy.so
+LoadModule lbmethod_byrequests_module modules/mod_lbmethod_byrequests.so
+LoadModule proxy_balancer_module modules/mod_proxy_balancer.so
+LoadModule proxy_http_module modules/mod_proxy_http.so
+LoadModule proxy_ajp_module modules/mod_proxy_ajp.so
+</text>  
  
  
  
