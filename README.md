@@ -58,7 +58,13 @@ To stop your web server, type:
 <p>sudo systemctl stop httpd<p>
 <br>
 To start the web server when it is stopped, type:
-<br> 
- 
+<br><br> 
+sudo systemctl start httpd
+<br>
+<br>
+To stop and then start the service again, type:
+<br><br>
+sudo systemctl restart httpd
+<br><br> 
  
  
