@@ -135,7 +135,8 @@ remove ssl.conf<br>
  <p>NameVirtualHost *:443 </p>
  
  <p><b> By default, SELinux only allowed apache/httpd to bind to the following ports:</b></p>
-![chrome_YGCkYpZv4M](https://user-images.githubusercontent.com/51197053/140651191-de6b4a48-e02c-4343-9958-c59566f5c448.png)
+
+ ![chrome_YGCkYpZv4M](https://user-images.githubusercontent.com/51197053/140651232-24d51e96-e3f9-479e-bed2-55977f09ff79.png)
 
  
 
