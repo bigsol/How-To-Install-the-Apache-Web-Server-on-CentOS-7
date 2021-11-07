@@ -17,4 +17,11 @@ sudo firewall-cmd --permanent --add-service=http
  <br><br>
  sudo firewall-cmd --permanent --add-service=https
 <br>
+<br>
+Next, reload the firewall to put these new rules into effect:
+<br><br>
+sudo firewall-cmd --reload
+<br><br>
+<p><b>Step 2 — Checking your Web Server</b></p>
+
 
