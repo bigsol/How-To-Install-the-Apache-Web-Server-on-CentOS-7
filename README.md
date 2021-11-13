@@ -4,11 +4,11 @@ How To Install the Apache Web Server on CentOS 7
 ### Step 1 — Installing Apache.
 
 ```
-sudo yum update httpd `
+sudo yum update httpd
 ```
 
 ```
-sudo yum install httpd`
+sudo yum install httpd
 ```
 
 <text>
@@ -17,7 +17,7 @@ If you completed the Additional Recommended Steps for New CentOS 7 Servers guide
 ###
 
 ```
-sudo firewall-cmd --permanent --add-service=http`
+sudo firewall-cmd --permanent --add-service=http
 ```
 
 <text>
@@ -27,13 +27,13 @@ sudo firewall-cmd --permanent --add-service=http`
 ###
 
 ```
-sudo firewall-cmd --permanent --add-service=https`
+sudo firewall-cmd --permanent --add-service=https
 ```
 
 Next, reload the firewall to put these new rules into effect:
 
 ```
-sudo firewall-cmd --reload`
+sudo firewall-cmd --reload
 ```
 
 ### Step 2 — Checking your Web Server</b></p>
